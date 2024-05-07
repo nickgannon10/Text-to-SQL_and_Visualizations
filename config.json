@@ -1,0 +1,35 @@
+{
+    "metadata_strings": {
+      "string_samples": "src/metadata_strings/string_samples.md", 
+      "join_samples": "src/metadata_strings/join_samples.md"
+    },
+    "groupchat_extraction": {
+      "initial_input": "src/prompts/groupchat_extraction/initial_input.md",
+      "SQLAssistantSystem": "src/prompts/groupchat_extraction/SQLAssistantSystem.md",
+      "RefinerSystem": "src/prompts/groupchat_extraction/RefinerSystem.md",
+      "CoderSystem": "src/prompts/groupchat_extraction/CoderSystem.md", 
+      "SQLMetadata": "src/prompts/groupchat_extraction/SQLMetadata.md"
+    },
+    "autogen_query": {
+      "SQLMetadata": "src/prompts/autogen_query/SQLMetadata.md", 
+      "Instructions": "src/prompts/autogen_query/Instructions.md",
+      "PromptTemplate": "src/prompts/autogen_query/PromptTemplate.md", 
+      "Examples": "src/prompts/autogen_query/Examples.md", 
+      "SystemAutogenQuery": "src/prompts/autogen_query/SystemAutogenQuery.md", 
+      "Coder2System": "src/prompts/autogen_query/Coder2System.md", 
+      "InputMessage": "src/prompts/autogen_query/InputMessage.md", 
+      "IterativeOutput": "src/prompts/autogen_query/IterativeOutput.md", 
+      "SynthFormat": "src/prompts/autogen_query/SynthFormat.md"
+    },
+    "chain_3": {
+      "PromptTemplate": "src/prompts/chain_3/PromptTemplate.md",
+      "Instructions": "src/prompts/chain_3/Instructions.md", 
+      "System_3": "src/prompts/chain_3/System_3.md"
+    },
+    "groupchat_3": {
+      "CriticSystem": "src/prompts/groupchat_3/CriticSystem.md",
+      "DataScientistSystem": "src/prompts/groupchat_3/DataScientistSystem.md", 
+      "InitialPrompt": "src/prompts/groupchat_3/InitialPrompt.md",
+      "IterativeOutput": "src/prompts/groupchat_3/IterativeOutput.md"
+    }
+  }
