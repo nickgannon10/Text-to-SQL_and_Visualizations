@@ -36,8 +36,6 @@
 
 Step 1: When the redis cache is sufficiently full run the data_engine.py script, and it will retrieve all of the stored question answer pairs.
 
-- Be sure your IP address has access to call the redis cache, and include the
-- Additionally, the FUNCTION_PRINCIPAL_ID (found in env variables of the azure function) should be placed in a .env file to ensure access
 - Ultimatley, this script creates a redis.json file in the metadata_strings director
 
 Step 2: Run the embedding_handler.py script to build the vector embeddings.
