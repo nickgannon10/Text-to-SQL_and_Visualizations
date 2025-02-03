@@ -1,4 +1,4 @@
-# UC-2: Create Trending Identification + Reporting
+# Trend Identification + Reporting
 
 ## Skeleton
 
